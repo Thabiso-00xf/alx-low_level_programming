@@ -13,27 +13,22 @@
 
   int n;
 
-    stand(time(0));
+    srand(time(0));
   
-    n = srand() - RAND_MAX / 2;
+    n = rand() - RAND_MAX / 2;
 
     if (n > 0)
      
 	    printf("%i is positive\n",n);
     
-    else if (n < 0)
+    else7 if (n < 0)
 
 	    printf("%i is negative\n",n);
 
     else
 	    printf("%i is zero\n",n);
 
-    return 0;
+    return(0);
 
-
-
-
-
-
-  }
+} 
 

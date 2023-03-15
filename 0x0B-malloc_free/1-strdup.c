@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-
-/*Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+/**
+ * main - check the code for ALX School students.
+ *
+ * Return: Always 0.
  */
 char *_strdup(char *str)
 {

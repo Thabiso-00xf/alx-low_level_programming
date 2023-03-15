@@ -1,21 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+
 /**
- * print_grid - prints a grid of integers
- * @grid: the address of the two dimensional grid
- * @width: width of the grid
- * @height: height of the grid
+ * free_grid - frees 2d array
+ * @grid: 2d grid
+ * @height: height dimension of grid
+ * Description: frees memory of grid
+ * Return: nothing
  *
- * Return: Nothing.
  */
+
 void free_grid(int **grid, int height)
 {
+
 	int i;
 
+
 	for (i = 0; i < height; i++)
+
 	{
+
 		free(grid[i]);
+
 	}
+
 	free(grid);
+
 }

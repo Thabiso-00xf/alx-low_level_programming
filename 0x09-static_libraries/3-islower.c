@@ -1,17 +1,13 @@
 #include "main.h"
-
-/** a prototype that detect that whether
- * the alphabet is a lowercase, it validate the input
- * if its true it return 1 else return zero
+/**
+ * _isupper - uppercase letters
+ * @c: char to check
  *
+ * Return: 0 or 1
  */
-
-int _islower(int c)
-
+int _isupper(int c)
 {
-if (c >= 97 && c <= 122) /*number reference from ascii table*/
-	return (1);
-{
+	if (c >= 'A' && c <= 'Z')
+		return (1);
 	return (0);
-}
 }

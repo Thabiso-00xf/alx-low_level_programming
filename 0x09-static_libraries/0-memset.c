@@ -1,20 +1,21 @@
- #include "main.h"
-/** 
- *_memset is a prototype function that
- *first count bytes  
- *of dest to the value c. 
- *The value of c is converted 
- *to an unsigned character
- *@s: memory area.
- *@b: constant byte.
- *@n: bytes filled.
- *Return: the pointer to dest.
+#include "main.h"
+/**
+ * _memset - fill a block of memory with a specific value
+ * @s: starting address of memory to be filled
+ * @b: the desired value
+ * @n: number of bytes to be changed
+ *
+ * Return: changed array with new value for n bytes
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int i;
+	int j = 0;
 
-	for (i = 0; i < n; i++)
-		*(s + i) =  b;
+
+	for (; n > 0; j++)
+	{
+		s[j] = b;
+		n--;
+	}
 	return (s);
 }

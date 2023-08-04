@@ -1,29 +1,27 @@
 #include "main.h"
 /**
- * _strncat - concatenates string2 to string1 and ends the,
- * @dest: destination
- * @The strcat()function operates on null-ended strings. 
+ * _strncat - concatenates two strings,
+ * @dest: destination.
  * @src: source.
  * @n: amount of bytes used from src.
- * Itreturns a pointer to str where the resulting concatenated string resides.
+ * Return: the pointer to dest.
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int tally = 0, tally2 = 0;
+	int count = 0, count2 = 0;
 
-	while (*(dest + tally) != '\0')
+	while (*(dest + count) != '\0')
 	{
-		tally++;
+		count++;
 	}
 
-	while (tally2 < n)
+	while (count2 < n)
 	{
-		*(dest + tally) = *(src + tally2);
-		if (*(src + tally2) == '\0')
+		*(dest + count) = *(src + count2);
+		if (*(src + count2) == '\0')
 			break;
-		tally++;
-		tally2++;
+		count++;
+		count2++;
 	}
 	return (dest);
 }
-

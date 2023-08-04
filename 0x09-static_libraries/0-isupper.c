@@ -1,11 +1,13 @@
-#include "main.h"
+#include "unistd.h"
 
 /**
- * _isupper - checks for uppercase character
- * @c: the character to be checked
- * Return: 1 if c is uppercase, 0 otherwise
+ * putchar is a function in the C programming language 
+ * that writes a single character 
+ * to the standard output stream, stdout
+ *
  */
-int _isupper(int c)
+
+int _putchar(char b)
 {
-	return (c >= 'A' && c <= 'Z');
-}
+	return (write(1, &b, 1))
+}		

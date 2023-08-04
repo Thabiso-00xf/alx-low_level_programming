@@ -1,6 +1,7 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef MAINFILE_H
+#define MAINFILE_H
 
+/* a static library that contain all prototypes*/
 
 int _putchar(char c);
 int _islower(int c);
@@ -25,3 +26,4 @@ char *_strstr(char *haystack, char *needle);
 
 
 #endif
+_

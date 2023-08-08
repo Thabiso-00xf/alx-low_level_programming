@@ -1,19 +1,4 @@
-<h3> 0x0B. C - malloc, free
-C
-Memory allocation
- By: Julien Barbier
- Weight: 1
- Ongoing second chance project - started Mar 13, 2023 6:00 AM, must end by Mar 16, 2023 6:00 AM
- An auto review will be launched at the deadline
-In a nutshell…
-Auto QA review: 0.0/47 mandatory & 0.0/18 optional
-Altogether:  0.0%
-Mandatory: 0.0%
-Optional: 0.0%
-Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
-Concepts
-For this project, we expect you to look at this concept:
-
+<h3> <B> <b
 Automatic and dynamic allocation, malloc and free
 Resources
 Read or watch:

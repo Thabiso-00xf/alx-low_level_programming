@@ -5,7 +5,7 @@
  * string_nconcat - concatenates two strings.
  * @s1: first string
  * @s2: second string
- * @n: index
+ * @n: index number
  * Return: char pointer
  */
 

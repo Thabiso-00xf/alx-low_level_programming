@@ -3,8 +3,8 @@
 
 /**
  * array_range - function name
- * @min: value one
- * @max: value two
+ * @minimum: value one
+ * @maximum: value two
  *
  * Return: the pointer to the newly created array
  */

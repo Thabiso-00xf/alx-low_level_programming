@@ -5,7 +5,7 @@
 /**
  * _calloc - function name
  * @nmemb: value one
- * @size: value two
+ * @size:to value two
  *
  * Return: pointer
  */

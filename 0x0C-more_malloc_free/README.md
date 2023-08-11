@@ -1,31 +1,5 @@
 <h3> 0x0C. C - More malloc, free
 C
-Memory allocation
- By: Julien Barbier
- Weight: 1
- Project over - took place from Mar 16, 2023 6:00 AM to Mar 17, 2023 6:00 AM
- An auto review will be launched at the deadline
-In a nutshell…
-Auto QA review: 0.0/36 mandatory & 0.0/21 optional
-Altogether:  0.0%
-Mandatory: 0.0%
-Optional: 0.0%
-Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
-Concepts
-For this project, we expect you to look at this concept:
-
-Automatic and dynamic allocation, malloc and free
-Resources
-Read or watch:
-
-Do I cast the result of malloc?
-man or help:
-
-exit (3)
-calloc
-realloc
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 General
 How to use the exit function

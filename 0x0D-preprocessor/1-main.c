@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- *
+ *@float two declaration
  * Return: Always 0.
  */
 int main(void)

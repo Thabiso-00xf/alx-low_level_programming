@@ -2,7 +2,7 @@
 
 /**
  * main - print name of file program is compiled from
- * Return: 0 if successful
+ * Return: 0 if successfull
  */
 int main(void)
 {

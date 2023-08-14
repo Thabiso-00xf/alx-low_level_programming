@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- *
+ *@s variable declararation
  * Return: Always 0.
  */
 int main(void)

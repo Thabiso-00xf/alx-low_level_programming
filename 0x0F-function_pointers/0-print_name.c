@@ -2,7 +2,7 @@
 
 /**
  * print_name - name of function
- * @name: pointer
+ * @name:declare pointer
  * @f: funcrion pointer
  */
 void print_name(char *name, void (*f)(char *))

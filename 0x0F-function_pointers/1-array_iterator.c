@@ -2,7 +2,7 @@
 
 /**
  * array_iterator - function name
- * @array: array name
+ * @array:declaire array name
  * @size: size of array
  * @action: function pointer
  */

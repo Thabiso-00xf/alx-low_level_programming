@@ -2,7 +2,7 @@
 
 /**
  * int_index - function name
- * @array: array pointer
+ * @array:declaration of array pointer
  * @size: size of array
  * @cmp: another function
  *

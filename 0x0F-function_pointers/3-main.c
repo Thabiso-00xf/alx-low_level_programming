@@ -2,7 +2,7 @@
 
 /**
  * main - performs simple operations
- * @argc: number of arguments passed
+ * @argc:the number of arguments passed
  * @argv: array of arguments passed
  * Return: 0 if successful
  */

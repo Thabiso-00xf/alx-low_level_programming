@@ -2,8 +2,8 @@
 
 /**
  * op_add - adds two integers
- * @a: first integer
- * @b: second integer
+ * @a:declare first integer
+ * @b:declare second integer
  * Return: sum of both integers
  */
 int op_add(int a, int b)

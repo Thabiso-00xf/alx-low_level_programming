@@ -1,14 +1,5 @@
 <h3> 
 0x0F. C - Function pointers
-C
- By: Alexandre Gautier
- Weight: 1
- Project will start Mar 22, 2023 6:00 AM, must end by Mar 23, 2023 6:00 AM
- Checker was released at Mar 22, 2023 12:00 PM
- An auto review will be launched at the deadline
-Resources
-Read or watch:
-
 Function Pointer in C
 Pointers to functions
 Function Pointers in C / C++
